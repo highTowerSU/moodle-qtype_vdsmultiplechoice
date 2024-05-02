@@ -71,8 +71,9 @@ class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
 
     public function grade_response(array $response) {
         list($numright, $total) = $this->get_num_parts_right($response);
-        $numwrong = $total - $numright;
         $numcorrect = $this->get_num_correct_choices();
+        $numwrong = $total - $numcorrect;
+        
 
         $fraction = ($numcorrect - $numwrong ) / $total;
         if($fraction < 0) {
