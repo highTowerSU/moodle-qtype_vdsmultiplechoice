@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * OU multiple response question definition class.
+ * VdS multiple choice question definition class.
  *
- * @package    qtype_oumultiresponse
- * @copyright  2010 The Open University
+ * @package    qtype_vdsmultiplechoice
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -29,12 +29,12 @@ require_once($CFG->dirroot . '/question/type/multichoice/question.php');
 
 
 /**
- * Represents an OU multiple response question.
+ * VdS multiple choice question definition class.
  *
- * @copyright  2010 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class qtype_oumultiresponse_question extends qtype_multichoice_multi_question
+class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
         implements question_automatically_gradable_with_countback {
 
     /**
@@ -49,7 +49,7 @@ class qtype_oumultiresponse_question extends qtype_multichoice_multi_question
      * @return renderer_base
      */
     public function get_renderer(moodle_page $page) {
-        return $page->get_renderer('qtype_oumultiresponse');
+        return $page->get_renderer('qtype_vdsmultiplechoice');
     }
 
     public function make_behaviour(question_attempt $qa, $preferredbehaviour) {

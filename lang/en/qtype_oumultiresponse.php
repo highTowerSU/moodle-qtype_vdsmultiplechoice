@@ -17,13 +17,13 @@
 /**
  * OU multiple response question type language strings.
  *
- * @package    qtype_oumultiresponse
+ * @package    qtype_vdsmultiplechoice
  * @copyright  2008 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $string['choices'] = 'Available choices';
-$string['combinedcontrolnameoumultiresponse'] = 'check box group';
+$string['combinedcontrolnamevdsmultiplechoice'] = 'check box group';
 $string['correctanswer'] = 'Correct';
 $string['err_correctanswerblank'] = 'You have marked this choice as correct but it is blank!';
 $string['err_nonecorrect'] = 'You have not marked any choices as correct.';
@@ -31,7 +31,7 @@ $string['err_youneedmorechoices'] = 'You need to enter two or more choices.';
 $string['notenoughcorrectanswers'] = 'You must select at least one correct choice';
 $string['pluginname'] = 'OU multiple response';
 $string['pluginname_help'] = 'A multiple-choice, multiple-response question type with particular scoring rules.';
-$string['pluginname_link'] = 'question/type/oumultiresponse';
+$string['pluginname_link'] = 'question/type/vdsmultiplechoice';
 $string['pluginnameadding'] = 'Adding an OU multiple response question';
 $string['pluginnameediting'] = 'Editing an OU multiple response question';
 $string['pluginnamesummary'] = '<p>A multiple-choice, multiple-response question type with particular scoring rules.</p>

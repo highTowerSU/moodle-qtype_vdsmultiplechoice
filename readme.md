@@ -1,4 +1,4 @@
-# The OU Multi-response question type
+# The VdS Multiple Choice question type
 
 The main difference from the standard Moodle multiple choice question type is
 in the way that grading works. When creating the question, the teacher just
@@ -38,13 +38,13 @@ Mahmound Kassaei and Tim Hunt at the Open University (http://www.open.ac.uk/).
 ### Install from the plugins database
 
 Install from the Moodle plugins database
-* https://moodle.org/plugins/qtype_oumultiresponse
+* https://moodle.org/plugins/qtype_vdsmultiplechoice
 
 ### Install using git
 
 To install using git, type these commands in the root of your Moodle install
-    git clone https://github.com/moodleou/moodle-qtype_oumultiresponse.git question/type/oumultiresponse
-    echo '/question/type/oumultiresponse/' >> .git/info/exclude
+    git clone https://github.com/moodleou/moodle-qtype_vdsmultiplechoice.git question/type/vdsmultiplechoice
+    echo '/question/type/vdsmultiplechoice/' >> .git/info/exclude
 
 Then run the moodle update process
 Site administration > Notifications

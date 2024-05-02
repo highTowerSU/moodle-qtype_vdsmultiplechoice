@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Defines the hooks necessary to make the oumultiresponse question type combinable
+ * Defines the hooks necessary to make the vdsmultiplechoice question type combinable
  *
- * @package   qtype_oumultiresponse
+ * @package   qtype_vdsmultiplechoice
  * @copyright  2013 The Open University
  * @author     Jamie Pratt <me@jamiep.org>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-class qtype_combined_combinable_type_oumultiresponse extends qtype_combined_combinable_type_base {
+class qtype_combined_combinable_type_vdsmultiplechoice extends qtype_combined_combinable_type_base {
 
     protected $identifier = 'multiresponse';
 
@@ -57,7 +57,7 @@ class qtype_combined_combinable_type_oumultiresponse extends qtype_combined_comb
     }
 }
 
-class qtype_combined_combinable_oumultiresponse extends qtype_combined_combinable_accepts_vertical_or_horizontal_layout_param {
+class qtype_combined_combinable_vdsmultiplechoice extends qtype_combined_combinable_accepts_vertical_or_horizontal_layout_param {
 
     /**
      * @param moodleform      $combinedform
@@ -126,14 +126,14 @@ class qtype_combined_combinable_oumultiresponse extends qtype_combined_combinabl
                 $nonemptyanswerblanks[] = $anskey;
             } else if ($this->formdata->correctanswer[$anskey]) {
                 $errors[$this->form_field_name("answergroup[{$anskey}]")] = get_string('err_correctanswerblank',
-                                                                                       'qtype_oumultiresponse');
+                                                                                       'qtype_vdsmultiplechoice');
             }
         }
         if (count($nonemptyanswerblanks) < 2) {
-            $errors[$this->form_field_name("answergroup[0]")] = get_string('err_youneedmorechoices', 'qtype_oumultiresponse');
+            $errors[$this->form_field_name("answergroup[0]")] = get_string('err_youneedmorechoices', 'qtype_vdsmultiplechoice');
         }
         if (count(array_filter($this->formdata->correctanswer)) === 0) {
-            $errors[$this->form_field_name("answergroup[0]")] = get_string('err_nonecorrect', 'qtype_oumultiresponse');
+            $errors[$this->form_field_name("answergroup[0]")] = get_string('err_nonecorrect', 'qtype_vdsmultiplechoice');
         }
         return $errors;
     }

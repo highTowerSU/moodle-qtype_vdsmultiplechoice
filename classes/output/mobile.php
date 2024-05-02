@@ -14,12 +14,12 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace qtype_oumultiresponse\output;
+namespace qtype_vdsmultiplechoice\output;
 
 /**
- * Mobile output class for question type oumultiresponse.
+ * Mobile output class for question type vdsmultiplechoice.
  *
- * @package qtype_oumultiresponse
+ * @package qtype_vdsmultiplechoice
  * @copyright 2018 The Open University
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -35,9 +35,9 @@ class mobile {
         return [
             'templates' => [[
                 'id' => 'main',
-                'html' => file_get_contents($CFG->dirroot . '/question/type/oumultiresponse/mobile/oumr.html')
+                'html' => file_get_contents($CFG->dirroot . '/question/type/vdsmultiplechoice/mobile/oumr.html')
             ]],
-            'javascript' => file_get_contents($CFG->dirroot . '/question/type/oumultiresponse/mobile/oumr.js')
+            'javascript' => file_get_contents($CFG->dirroot . '/question/type/vdsmultiplechoice/mobile/oumr.js')
         ];
     }
 }
