@@ -74,7 +74,10 @@ class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
         $numwrong = $this->get_num_selected_choices($response) - $numright;
         $numcorrect = $this->get_num_correct_choices();
 
-        $fraction = max(min($numright, $numcorrect - $numwrong), 0) / $numcorrect;
+        $fraction = $numcorrect - $numwrong;
+        if($fraction < 0) {
+            $fraction = 0;
+        }
 
         $state = question_state::graded_state_for_fraction($fraction);
         if ($state == question_state::$gradedwrong && $numright > 0) {
@@ -131,6 +134,8 @@ class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
                     $answers[$id]->fraction)->is_incorrect()) {
                 $workspace[$id] = str_replace('1', '2', $workspace[$id]);
                 $numright++;
+            } else {
+                $numright--;
             }
         }
 
