@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * OU multiple response question type language strings.
+ * VdS multiple choice question type language strings.
  *
  * @package    qtype_vdsmultiplechoice
  * @copyright  2008 The Open University
@@ -29,11 +29,11 @@ $string['err_correctanswerblank'] = 'You have marked this choice as correct but 
 $string['err_nonecorrect'] = 'You have not marked any choices as correct.';
 $string['err_youneedmorechoices'] = 'You need to enter two or more choices.';
 $string['notenoughcorrectanswers'] = 'You must select at least one correct choice';
-$string['pluginname'] = 'OU multiple response';
+$string['pluginname'] = 'VdS multiple choice';
 $string['pluginname_help'] = 'A multiple-choice, multiple-response question type with particular scoring rules.';
 $string['pluginname_link'] = 'question/type/vdsmultiplechoice';
-$string['pluginnameadding'] = 'Adding an OU multiple response question';
-$string['pluginnameediting'] = 'Editing an OU multiple response question';
+$string['pluginnameadding'] = 'Adding an VdS multiple choice question';
+$string['pluginnameediting'] = 'Editing an VdS multiple choice question';
 $string['pluginnamesummary'] = '<p>A multiple-choice, multiple-response question type with particular scoring rules.</p>
 <p>Recommended if your question has more than one correct answer.</p>';
 $string['privacy:metadata'] = 'Multiple response question type plugin allows question authors to set default options as user preferences.';

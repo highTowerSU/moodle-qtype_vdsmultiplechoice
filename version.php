@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 
-$plugin->version   = 2022040100;
+$plugin->version   = 2024050200;
 $plugin->requires  = 2021051700;
 $plugin->component = 'qtype_vdsmultiplechoice';
 $plugin->maturity  = MATURITY_STABLE;
