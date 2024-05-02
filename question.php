@@ -74,7 +74,7 @@ class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
         $numwrong = $this->get_num_selected_choices($response) - $numright;
         $numcorrect = $this->get_num_correct_choices();
 
-        $fraction = ( $numcorrect - $numwrong ) / $total;
+        $fraction = ($numcorrect - $numwrong ) / $total;
         if($fraction < 0) {
             $fraction = 0;
         }
@@ -91,6 +91,11 @@ class qtype_vdsmultiplechoice_question extends qtype_multichoice_multi_question
             question_hint_with_parts $hint) {
         parent::disable_hint_settings_when_too_many_selected($hint);
         $hint->showchoicefeedback = false;
+    }
+
+    public function compute_final_grade($responses, $totaltries) {
+        $result = parent::compute_final_grade($responses, $totaltries);
+        return $result;
     }
 
     public static function replace_char_at($string, $pos, $newchar) {
