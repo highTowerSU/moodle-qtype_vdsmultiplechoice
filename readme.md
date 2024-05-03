@@ -1,6 +1,6 @@
 # The Vds multiple-choice question type
 
-The difference from the standard Moodle multiple-choice question type is the evaluation of the tests. The Creator chooses the correct answers. If there are n correct answers, the participant receives one point for each correctly selected answer, and loses one point for each incorrect answer or for each correct answer not selected. Here is an example:
+The difference from the standard Moodle multiple-choice question type is the evaluation of the tests. The Creator chooses the correct answers. If there are n correct answers, the participant receives one point for each correctly selected answer, and loses one point for each incorrect answer and for each correct answer not selected. Here is an example:
 
 Which of these animals are mammals?
 
