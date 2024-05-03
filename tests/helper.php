@@ -18,14 +18,14 @@
  * Test helper code for the OU multiple response question type.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2010 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
  * Test helper class for the OU multiple response question type.
  *
- * @copyright  2010 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qtype_vdsmultiplechoice_test_helper {

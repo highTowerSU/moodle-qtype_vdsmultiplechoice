@@ -16,14 +16,14 @@
 
 /**
  * @package    qtype_vdsmultiplechoice
- * @copyright  2010 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
  * Provides the information to backup vdsmultiplechoice questions.
  *
- * @copyright  2010 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class backup_qtype_vdsmultiplechoice_plugin extends backup_qtype_plugin {

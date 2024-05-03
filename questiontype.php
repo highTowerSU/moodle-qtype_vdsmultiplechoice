@@ -39,7 +39,7 @@ require_once($CFG->dirroot . '/question/format/xml/format.php');
  * 2. The correct answer is just indicated on the editing form by a indicating
  * which choices are correct. There is no complex but flexible scoring system.
  *
- * @copyright  2008 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qtype_vdsmultiplechoice extends question_type {

@@ -19,7 +19,7 @@
  * various interaction models.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2010 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

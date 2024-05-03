@@ -18,8 +18,8 @@
  * OU multi-response question type upgrade code.
  *
  * @package   qtype_vdsmultiplechoice
- * @copyright 2020 The Open University
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @copyright  2024 CENEOS GmbH
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**

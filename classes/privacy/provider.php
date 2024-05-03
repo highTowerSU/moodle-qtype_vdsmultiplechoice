@@ -17,7 +17,7 @@
  * Privacy Subsystem implementation for qtype_vdsmultiplechoice.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2018 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace qtype_vdsmultiplechoice\privacy;
@@ -30,7 +30,7 @@ use \core_privacy\local\request\writer;
 /**
  * Privacy Subsystem for qtype_vdsmultiplechoice implementing user_preference_provider.
  *
- * @copyright  2018 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements

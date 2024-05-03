@@ -18,7 +18,7 @@
  * Privacy provider tests.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2021 The Open university
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace qtype_vdsmultiplechoice;

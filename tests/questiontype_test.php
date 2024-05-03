@@ -18,7 +18,7 @@
  * Unit tests for the OU multiple response question type class.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2008 The Open University
+ * @copyright  2024 CENEOS GmbH
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
