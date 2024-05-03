@@ -1,4 +1,4 @@
-# The Vds multiple-choice question type
+# The VdS multiple-choice question type
 
 The difference from the standard Moodle multiple-choice question type is the evaluation of the tests. The Creator chooses the correct answers. If there are n correct answers, the participant receives one point for each correctly selected answer, and loses one point for each incorrect answer and for each correct answer not selected. Here is an example:
 
@@ -32,7 +32,7 @@ the Team from the CENEOS GmbH.
 ### Install from the plugins database
 
 Install from the Moodle plugins database
-* https://moodle.org/plugins/...to-be-continued...
+* https://moodle.org/plugins/qtype_vdsmultiplechoice
 
 ### Install using git
 
