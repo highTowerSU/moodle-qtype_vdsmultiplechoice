@@ -26,6 +26,8 @@ Scoring:
 This is a multiple-choice, multiple-response question type that was created by
 the Team from the CENEOS GmbH.
 
+This is based upon the work that was created by Mahmound Kassaei and Tim Hunt at the Open University (http://www.open.ac.uk/) (https://github.com/moodleou/moodle-qtype_oumultiresponse).
+
 
 ## Installation and set-up
 
