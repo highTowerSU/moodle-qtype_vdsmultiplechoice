@@ -18,14 +18,7 @@
  * VdS multiple choice question definition class.
  *
  * @package    qtype_vdsmultiplechoice
- * @copyright  2024 CENEOS GmbH
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
-/**
- * VdS multiple choice question definition class.
- *
- * @copyright  2024 CENEOS GmbH
+ * @copyright  2024 CENEOS GmbH & 2010 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class qtype_vdsmultiplechoice_edit_form extends question_edit_form {
